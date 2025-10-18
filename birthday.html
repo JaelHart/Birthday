@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy 22nd, Sygg ❤️</title>
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--accent:#ff6b81;--muted:#cbd5e1}
+    html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;}
+    body{background: linear-gradient(180deg,#07102a 0%, #0b1220 60%);display:flex;align-items:center;justify-content:center;padding:24px;color:var(--muted)}
+    .wrap{max-width:720px;width:100%;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));border-radius:18px;padding:28px;box-shadow: 0 10px 30px rgba(2,6,23,0.6);position:relative;overflow:hidden}
+    h1{margin:0;font-size:28px;color:#fff;letter-spacing:-0.2px}
+    .subtitle{margin-top:6px;color:var(--muted);font-size:14px}
+    .card{display:grid;grid-template-columns:1fr 220px;gap:20px;align-items:center;margin-top:18px}
+    .message{background:rgba(255,255,255,0.02);padding:18px;border-radius:12px}
+    p{margin:0 0 12px 0;line-height:1.5;color:var(--muted)}
+    .heart{display:inline-block;font-size:22px;color:var(--accent);transform-origin:center;animation:beat 1s infinite}
+    @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+    .right{display:flex;flex-direction:column;align-items:center;text-align:center}
+    .circle{width:160px;height:160px;border-radius:50%;background:linear-gradient(135deg,#111827, #0b1220);display:flex;align-items:center;justify-content:center;box-shadow: 0 8px 24px rgba(2,6,23,0.6)}
+    .age{font-size:42px;color:var(--accent);font-weight:700}
+    .note{font-size:13px;color:var(--muted);margin-top:10px}
+    footer{margin-top:14px;color:#94a3b8;font-size:13px}
+    .small{font-size:12px;color:#94a3b8}
+
+    /* back button styling */
+    .back-button {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      background: linear-gradient(90deg, #ff6b81, #ff9aa2);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .back-button:hover {
+      opacity: 0.85;
+    }
+
+    @media(max-width:640px){.card{grid-template-columns:1fr;}.right{order:-1}}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <div class="confetti" aria-hidden="true">
+      <span style="left:8%;top:5%;background:#ff6b81;animation-duration:6s;width:8px;height:12px"></span>
+      <span style="left:22%;top:2%;background:#ffd166;animation-duration:5.2s"></span>
+      <span style="left:34%;top:8%;background:#6bf0ff;animation-duration:6.7s"></span>
+      <span style="left:48%;top:1%;background:#b38bff;animation-duration:5.8s"></span>
+      <span style="left:62%;top:4%;background:#ff9aa2;animation-duration:6.2s"></span>
+      <span style="left:78%;top:3%;background:#9be7a1;animation-duration:5.5s"></span>
+    </div>
+
+    <h1>Happy 22nd Birthday, Sygg <span class="heart">❤</span></h1>
+    <div class="subtitle">From: Jai to Mb A simple page I made.</div>
+
+    <div class="card">
+      <div class="message">
+        <p>Hello Sygg </p>
+        <p>I know I failed you when it mattered the most. I didn’t just miss saying "happy birthday"  I made you feel like you weren’t my priority, and I am truly sorry for that. You mean everything to me and I never want you to feel unseen.</p>
+        <p>This is me taking responsibility and  to do better not with words alone, but with how I show up for you. You deserve a day full of love, laughter, and being celebrated especially on your 22nd.</p>
+        <p>If you want space today, I understand. I will wait patiently. When you're ready, come to me. This is what i can do for your birthday.</p>
+        <p class="small"> With all my love, Jael Hart J. Simbah</p>
+      </div>
+
+      <div class="right">
+        <div class="circle">
+          <div>
+            <div class="age">22</div>
+            <div class="note">favorite number</div>
+          </div>
+        </div>
+        <div class="note">Made with ❤️ I LOVE YOU SO MUCH.</div>
+      </div>
+    </div>
+
+    <!-- ✅ BACK BUTTON HERE -->
+    <div style="text-align:center;">
+      <a href="index.html" class="back-button">← Back to Main Page</a>
+    </div>
+  </div>
+</body>
+</html>
